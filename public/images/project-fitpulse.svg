@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="FitPulse 运动健康看板界面截图">
+  <defs>
+    <linearGradient id="f-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0b11" />
+      <stop offset="1" stop-color="#0b0c13" />
+    </linearGradient>
+    <linearGradient id="f-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="f-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="f-ring2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a78bfa" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="f-bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#a78bfa" />
+    </linearGradient>
+    <radialGradient id="f-glow" cx="0.7" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#f-bg)" />
+  <rect width="1200" height="675" fill="url(#f-glow)" />
+
+  <!-- 浏览器栏 -->
+  <rect width="1200" height="48" fill="#101118" />
+  <circle cx="24" cy="24" r="5" fill="#ff5f57" />
+  <circle cx="42" cy="24" r="5" fill="#febc2e" />
+  <circle cx="60" cy="24" r="5" fill="#28c840" />
+  <rect x="84" y="14" width="360" height="20" rx="10" fill="#1a1c26" />
+  <circle cx="98" cy="24" r="3" fill="#5b5f73" />
+  <text x="110" y="28" fill="#666b80" font-size="11" font-family="Inter, 'PingFang SC', -apple-system, sans-serif">fitpulse.app/today</text>
+
+  <!-- 侧边栏 -->
+  <rect x="0" y="48" width="210" height="627" fill="#0d0e15" />
+  <line x1="210" y1="48" x2="210" y2="675" stroke="#1a1c26" />
+  <circle cx="38" cy="82" r="15" fill="url(#f-brand)" />
+  <path d="M32 84 C32 78 37 74 38 74 C39 74 44 78 44 84 C44 87 41 89 38 89 C35 89 32 87 32 84 Z" fill="#ffffff" fill-opacity="0.9" />
+  <text x="62" y="80" fill="#f4f5fa" font-size="13" font-weight="600" font-family="Inter, sans-serif">FitPulse</text>
+  <text x="62" y="94" fill="#555a6e" font-size="8" letter-spacing="1.5" font-family="Inter, sans-serif">MOVE BETTER</text>
+
+  <rect x="12" y="140" width="186" height="38" rx="10" fill="#1a1c28" />
+  <rect x="28" y="152" width="12" height="12" rx="3" fill="#60a5fa" />
+  <text x="50" y="164" fill="#e4e6ef" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">今日概览</text>
+  <rect x="28" y="194" width="12" height="12" rx="3" fill="#3d4052" />
+  <text x="50" y="206" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">训练计划</text>
+  <rect x="28" y="236" width="12" height="12" rx="3" fill="#3d4052" />
+  <text x="50" y="248" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">运动记录</text>
+  <rect x="28" y="278" width="12" height="12" rx="3" fill="#3d4052" />
+  <text x="50" y="290" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">健康数据</text>
+  <rect x="28" y="320" width="12" height="12" rx="3" fill="#3d4052" />
+  <text x="50" y="332" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">个人目标</text>
+
+  <text x="24" y="388" fill="#4b4f62" font-size="10" letter-spacing="1.5" font-family="Inter, sans-serif">本周目标</text>
+  <rect x="24" y="404" width="162" height="74" rx="12" fill="#11131c" stroke="#1e2130" />
+  <text x="40" y="428" fill="#7c8094" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">步数目标</text>
+  <text x="40" y="450" fill="#e8eaf2" font-size="15" font-weight="600" font-family="Inter, sans-serif">42,180</text>
+  <text x="40" y="466" fill="#555a6e" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">/ 60,000 步</text>
+  <rect x="40" y="472" width="130" height="4" rx="2" fill="#1e2130" />
+
+  <circle cx="38" cy="614" r="14" fill="#312e81" />
+  <text x="38" y="618" fill="#c7d2fe" font-size="9" font-weight="600" text-anchor="middle" font-family="Inter, sans-serif">YK</text>
+  <text x="60" y="611" fill="#c3c6d4" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">杨可祎</text>
+  <text x="60" y="625" fill="#545869" font-size="9" font-family="Inter, sans-serif">Level 12</text>
+
+  <!-- 顶部 -->
+  <text x="242" y="94" fill="#f5f6fb" font-size="21" font-weight="600" font-family="Inter, 'PingFang SC', sans-serif">今日概览</text>
+  <text x="242" y="116" fill="#6b6f82" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">保持节奏，比昨天更进一步</text>
+  <rect x="1020" y="72" width="142" height="32" rx="16" fill="#12141d" stroke="#222532" />
+  <text x="1091" y="92" fill="#8b90a6" font-size="10" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">2026 / 08 / 12</text>
+
+  <!-- 活动圆环卡片 -->
+  <rect x="242" y="136" width="398" height="282" rx="16" fill="#101119" stroke="#1d202b" />
+  <text x="266" y="168" fill="#e9ebf3" font-size="13" font-weight="500" font-family="Inter, 'PingFang SC', sans-serif">今日活动</text>
+  <text x="266" y="186" fill="#5f6376" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">三项数据综合完成度</text>
+
+  <circle cx="356" cy="300" r="86" fill="none" stroke="#1e2130" stroke-width="13" />
+  <circle cx="356" cy="300" r="86" fill="none" stroke="url(#f-ring)" stroke-width="13" stroke-dasharray="432 540" stroke-linecap="round" transform="rotate(-90 356 300)" />
+  <circle cx="356" cy="300" r="66" fill="none" stroke="#1e2130" stroke-width="11" />
+  <circle cx="356" cy="300" r="66" fill="none" stroke="url(#f-ring2)" stroke-width="11" stroke-dasharray="300 415" stroke-linecap="round" transform="rotate(-90 356 300)" />
+  <circle cx="356" cy="300" r="47" fill="none" stroke="#1e2130" stroke-width="9" />
+  <circle cx="356" cy="300" r="47" fill="none" stroke="#c084fc" stroke-width="9" stroke-dasharray="200 295" stroke-linecap="round" transform="rotate(-90 356 300)" />
+  <text x="356" y="306" fill="#ffffff" font-size="28" font-weight="600" text-anchor="middle" font-family="Inter, sans-serif">82</text>
+  <text x="356" y="324" fill="#626679" font-size="10" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">今日活力</text>
+
+  <circle cx="498" cy="248" r="4" fill="#38bdf8" />
+  <text x="510" y="252" fill="#8b90a6" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">步数 8,642</text>
+  <circle cx="498" cy="286" r="4" fill="#a78bfa" />
+  <text x="510" y="290" fill="#8b90a6" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">运动 42 分钟</text>
+  <circle cx="498" cy="324" r="4" fill="#c084fc" />
+  <text x="510" y="328" fill="#8b90a6" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">消耗 486 千卡</text>
+  <rect x="490" y="354" width="128" height="28" rx="14" fill="#151828" stroke="#242a3d" />
+  <text x="554" y="372" fill="#93c5fd" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">查看详细报告</text>
+
+  <!-- 指标卡片 -->
+  <rect x="660" y="136" width="502" height="134" rx="16" fill="#101119" stroke="#1d202b" />
+  <rect x="680" y="154" width="40" height="40" rx="12" fill="#172554" />
+  <path d="M694 168 L700 180 L694 180 Z M706 168 L700 180 L706 180 Z" fill="#93c5fd" />
+  <text x="736" y="168" fill="#6d7185" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">今日步数</text>
+  <text x="736" y="195" fill="#f4f5fa" font-size="24" font-weight="600" font-family="Inter, sans-serif">8,642</text>
+  <rect x="736" y="208" width="56" height="18" rx="9" fill="#0f2a22" />
+  <text x="745" y="221" fill="#34d399" font-size="9" font-family="Inter, sans-serif">+12.4%</text>
+  <path d="M960 236 L986 220 L1012 228 L1038 202 L1064 212 L1090 184 L1116 194 L1142 166" stroke="url(#f-brand)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="1142" cy="166" r="4" fill="#c084fc" />
+
+  <rect x="660" y="284" width="502" height="134" rx="16" fill="#101119" stroke="#1d202b" />
+  <rect x="680" y="302" width="40" height="40" rx="12" fill="#2e1065" />
+  <path d="M694 316 C700 308 706 316 700 322 C694 328 688 320 694 316 Z" fill="#c4b5fd" />
+  <text x="736" y="316" fill="#6d7185" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">消耗热量</text>
+  <text x="736" y="343" fill="#f4f5fa" font-size="24" font-weight="600" font-family="Inter, sans-serif">486 <tspan font-size="11" fill="#626679">kcal</tspan></text>
+  <rect x="736" y="356" width="52" height="18" rx="9" fill="#0f2a22" />
+  <text x="745" y="369" fill="#34d399" font-size="9" font-family="Inter, sans-serif">+6.8%</text>
+  <rect x="960" y="316" width="182" height="8" rx="4" fill="#1e2130" />
+  <rect x="960" y="316" width="132" height="8" rx="4" fill="url(#f-brand)" />
+  <text x="960" y="344" fill="#555a6e" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">目标 600 kcal</text>
+
+  <!-- 周柱状图 -->
+  <rect x="242" y="438" width="520" height="202" rx="16" fill="#101119" stroke="#1d202b" />
+  <text x="266" y="470" fill="#e9ebf3" font-size="13" font-weight="500" font-family="Inter, 'PingFang SC', sans-serif">本周运动量</text>
+  <text x="266" y="488" fill="#5f6376" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">每日消耗千卡</text>
+  <rect x="660" y="460" width="78" height="22" rx="11" fill="#151828" stroke="#242a3d" />
+  <text x="699" y="475" fill="#8b90a6" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">本周</text>
+
+  <line x1="280" y1="594" x2="730" y2="594" stroke="#1e2130" />
+  <rect x="294" y="536" width="30" height="58" rx="6" fill="url(#f-bar)" />
+  <rect x="356" y="512" width="30" height="82" rx="6" fill="url(#f-bar)" />
+  <rect x="418" y="548" width="30" height="46" rx="6" fill="url(#f-bar)" />
+  <rect x="480" y="490" width="30" height="104" rx="6" fill="url(#f-bar)" />
+  <rect x="542" y="522" width="30" height="72" rx="6" fill="url(#f-bar)" />
+  <rect x="604" y="470" width="30" height="124" rx="6" fill="url(#f-bar)" />
+  <rect x="666" y="506" width="30" height="88" rx="6" fill="url(#f-bar)" />
+  <text x="309" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周一</text>
+  <text x="371" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周二</text>
+  <text x="433" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周三</text>
+  <text x="495" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周四</text>
+  <text x="557" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周五</text>
+  <text x="619" y="612" fill="#8b90a6" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周六</text>
+  <text x="681" y="612" fill="#555a6e" font-size="9" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">周日</text>
+
+  <!-- 训练列表 -->
+  <rect x="782" y="438" width="380" height="202" rx="16" fill="#101119" stroke="#1d202b" />
+  <text x="806" y="470" fill="#e9ebf3" font-size="13" font-weight="500" font-family="Inter, 'PingFang SC', sans-serif">最近训练</text>
+  <text x="1138" y="470" fill="#6d7185" font-size="9" text-anchor="end" font-family="Inter, 'PingFang SC', sans-serif">查看全部</text>
+
+  <rect x="806" y="486" width="332" height="42" rx="10" fill="#13151e" />
+  <rect x="818" y="496" width="22" height="22" rx="6" fill="#172554" />
+  <path d="M825 507 L833 507 M829 503 L829 511" stroke="#93c5fd" stroke-width="1.4" stroke-linecap="round" />
+  <text x="852" y="504" fill="#cfd2df" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">晨间慢跑</text>
+  <text x="852" y="518" fill="#555a6e" font-size="8" font-family="Inter, 'PingFang SC', sans-serif">32 分钟 · 4.2 km</text>
+  <text x="1122" y="511" fill="#34d399" font-size="9" text-anchor="end" font-family="Inter, sans-serif">268 kcal</text>
+
+  <rect x="806" y="536" width="332" height="42" rx="10" fill="#13151e" />
+  <rect x="818" y="546" width="22" height="22" rx="6" fill="#2e1065" />
+  <circle cx="829" cy="557" r="6" fill="none" stroke="#c4b5fd" stroke-width="1.4" />
+  <text x="852" y="554" fill="#cfd2df" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">核心力量训练</text>
+  <text x="852" y="568" fill="#555a6e" font-size="8" font-family="Inter, 'PingFang SC', sans-serif">18 分钟 · 3 组</text>
+  <text x="1122" y="561" fill="#34d399" font-size="9" text-anchor="end" font-family="Inter, sans-serif">156 kcal</text>
+
+  <rect x="806" y="586" width="332" height="42" rx="10" fill="#13151e" />
+  <rect x="818" y="596" width="22" height="22" rx="6" fill="#134e4a" />
+  <path d="M824 612 L828 604 L832 610 L836 600" stroke="#5eead4" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="852" y="604" fill="#cfd2df" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">拉伸放松</text>
+  <text x="852" y="618" fill="#555a6e" font-size="8" font-family="Inter, 'PingFang SC', sans-serif">10 分钟 · 全身</text>
+  <text x="1122" y="611" fill="#34d399" font-size="9" text-anchor="end" font-family="Inter, sans-serif">62 kcal</text>
+</svg>

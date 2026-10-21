@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    'Inter', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+  --color-ink: #faf8f5;
+  --color-panel: #ffffff;
+  --color-brand-blue: #6d8df6;
+  --color-brand-violet: #a78bfa;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    min-width: 320px;
+    background-color: var(--color-ink);
+    color: #2f2b37;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: rgb(167 139 250 / 0.25);
+    color: #2f2b37;
+  }
+
+  /* 浅色滚动条，与温柔的背景保持一致 */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f3efe9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d9d1c8;
+    border-radius: 999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c7bdb2;
+  }
+}

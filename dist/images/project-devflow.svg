@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="DevFlow AI 智能代码协作工具界面截图">
+  <defs>
+    <linearGradient id="d-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090a0f" />
+      <stop offset="1" stop-color="#0b0c13" />
+    </linearGradient>
+    <linearGradient id="d-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <radialGradient id="d-glow" cx="0.9" cy="0.05" r="0.7">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
+    <filter id="d-shadow"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#05050a" flood-opacity="0.45" /></filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#d-bg)" />
+  <rect width="1200" height="675" fill="url(#d-glow)" />
+
+  <!-- 浏览器栏 -->
+  <rect width="1200" height="48" fill="#101118" />
+  <circle cx="24" cy="24" r="5" fill="#ff5f57" />
+  <circle cx="42" cy="24" r="5" fill="#febc2e" />
+  <circle cx="60" cy="24" r="5" fill="#28c840" />
+  <rect x="84" y="14" width="360" height="20" rx="10" fill="#1a1c26" />
+  <circle cx="98" cy="24" r="3" fill="#5b5f73" />
+  <text x="110" y="28" fill="#666b80" font-size="11" font-family="Inter, 'PingFang SC', -apple-system, sans-serif">devflow.app/workspace</text>
+
+  <!-- 活动栏 -->
+  <rect x="0" y="48" width="56" height="627" fill="#0c0d13" />
+  <line x1="56" y1="48" x2="56" y2="675" stroke="#1a1c26" />
+  <rect x="16" y="68" width="24" height="24" rx="7" fill="url(#d-brand)" />
+  <path d="M23 82 L28 75 L33 82 L28 89 Z" fill="#ffffff" fill-opacity="0.9" />
+  <rect x="20" y="116" width="16" height="16" rx="4" fill="#343748" />
+  <rect x="20" y="156" width="16" height="16" rx="4" fill="#343748" />
+  <rect x="20" y="196" width="16" height="16" rx="4" fill="#343748" />
+  <rect x="20" y="236" width="16" height="16" rx="4" fill="#343748" />
+  <circle cx="28" cy="292" r="8" fill="#1f2230" />
+  <circle cx="28" cy="620" r="12" fill="#312e81" />
+  <text x="28" y="624" fill="#c7d2fe" font-size="8" font-weight="600" text-anchor="middle" font-family="Inter, sans-serif">YK</text>
+
+  <!-- 文件树 -->
+  <rect x="56" y="48" width="220" height="627" fill="#0e0f16" />
+  <line x1="276" y1="48" x2="276" y2="675" stroke="#1a1c26" />
+  <text x="72" y="80" fill="#5d6175" font-size="9" letter-spacing="1.6" font-family="Inter, sans-serif">EXPLORER</text>
+  <text x="72" y="106" fill="#c5c8d5" font-size="10" font-weight="500" font-family="Inter, sans-serif">DEVFLOW-AI</text>
+
+  <path d="M74 125 L79 130 L74 135" stroke="#5d6175" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  <text x="88" y="134" fill="#8f93a6" font-size="10" font-family="Inter, sans-serif">src</text>
+  <path d="M90 152 L95 157 L90 162" stroke="#5d6175" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  <text x="104" y="161" fill="#84889b" font-size="10" font-family="Inter, sans-serif">components</text>
+  <path d="M90 176 L95 181 L90 186" stroke="#5d6175" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  <text x="104" y="185" fill="#84889b" font-size="10" font-family="Inter, sans-serif">hooks</text>
+  <rect x="72" y="196" width="188" height="24" rx="6" fill="#1b1e2b" />
+  <rect x="90" y="205" width="7" height="7" rx="1" fill="#60a5fa" />
+  <text x="104" y="211" fill="#e2e4ee" font-size="10" font-family="Inter, sans-serif">App.tsx</text>
+  <rect x="90" y="229" width="7" height="7" rx="1" fill="#38bdf8" />
+  <text x="104" y="235" fill="#84889b" font-size="10" font-family="Inter, sans-serif">main.tsx</text>
+  <rect x="90" y="253" width="7" height="7" rx="1" fill="#a78bfa" />
+  <text x="104" y="259" fill="#84889b" font-size="10" font-family="Inter, sans-serif">index.css</text>
+  <path d="M74 276 L79 281 L74 286" stroke="#5d6175" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  <text x="88" y="285" fill="#84889b" font-size="10" font-family="Inter, sans-serif">public</text>
+  <rect x="90" y="299" width="7" height="7" rx="1" fill="#fbbf24" />
+  <text x="104" y="305" fill="#84889b" font-size="10" font-family="Inter, sans-serif">package.json</text>
+  <rect x="90" y="323" width="7" height="7" rx="1" fill="#94a3b8" />
+  <text x="104" y="329" fill="#84889b" font-size="10" font-family="Inter, sans-serif">README.md</text>
+
+  <text x="72" y="380" fill="#5d6175" font-size="9" letter-spacing="1.6" font-family="Inter, sans-serif">OUTLINE</text>
+  <rect x="76" y="398" width="7" height="7" rx="1" fill="#6366f1" />
+  <text x="90" y="404" fill="#707487" font-size="10" font-family="Inter, sans-serif">App</text>
+  <rect x="90" y="420" width="7" height="7" rx="1" fill="#8b5cf6" />
+  <text x="104" y="426" fill="#707487" font-size="10" font-family="Inter, sans-serif">handleReview</text>
+  <rect x="90" y="442" width="7" height="7" rx="1" fill="#8b5cf6" />
+  <text x="104" y="448" fill="#707487" font-size="10" font-family="Inter, sans-serif">useAiChat</text>
+
+  <!-- 编辑器 -->
+  <rect x="276" y="48" width="560" height="38" fill="#0c0d13" />
+  <rect x="276" y="48" width="130" height="38" fill="#11131c" />
+  <rect x="276" y="84" width="130" height="2" fill="#60a5fa" />
+  <text x="294" y="72" fill="#d7dae5" font-size="10" font-family="Inter, sans-serif">App.tsx</text>
+  <text x="424" y="72" fill="#62667a" font-size="10" font-family="Inter, sans-serif">useReview.ts</text>
+  <text x="820" y="72" fill="#4c5063" font-size="14" font-family="Inter, sans-serif">+</text>
+
+  <text x="296" y="108" fill="#5f6376" font-size="9" font-family="Inter, sans-serif">src / App.tsx /</text>
+  <text x="378" y="108" fill="#8b90a4" font-size="9" font-family="Inter, sans-serif">handleReview</text>
+
+  <!-- 代码行 -->
+  <rect x="276" y="122" width="560" height="518" fill="#0e0f15" />
+  <rect x="276" y="278" width="560" height="24" fill="#151823" />
+  <text x="300" y="144" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">1</text>
+  <rect x="318" y="136" width="58" height="8" rx="3" fill="#c084fc" />
+  <rect x="384" y="136" width="76" height="8" rx="3" fill="#60a5fa" />
+  <rect x="468" y="136" width="34" height="8" rx="3" fill="#94a3b8" />
+  <text x="300" y="168" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">2</text>
+  <rect x="330" y="160" width="44" height="8" rx="3" fill="#c084fc" />
+  <text x="300" y="192" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">3</text>
+  <rect x="318" y="184" width="72" height="8" rx="3" fill="#34d399" />
+  <rect x="398" y="184" width="110" height="8" rx="3" fill="#475569" />
+  <text x="300" y="216" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">4</text>
+  <rect x="330" y="208" width="52" height="8" rx="3" fill="#c084fc" />
+  <rect x="390" y="208" width="46" height="8" rx="3" fill="#60a5fa" />
+  <rect x="444" y="208" width="26" height="8" rx="3" fill="#94a3b8" />
+  <text x="300" y="240" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">5</text>
+  <rect x="330" y="232" width="34" height="8" rx="3" fill="#c084fc" />
+  <rect x="372" y="232" width="92" height="8" rx="3" fill="#60a5fa" />
+  <text x="300" y="264" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">6</text>
+  <rect x="330" y="256" width="60" height="8" rx="3" fill="#475569" />
+  <rect x="398" y="256" width="40" height="8" rx="3" fill="#fbbf24" />
+  <text x="300" y="288" fill="#7c8299" font-size="10" text-anchor="end" font-family="Inter, monospace">7</text>
+  <rect x="330" y="280" width="88" height="8" rx="3" fill="#38bdf8" />
+  <rect x="426" y="280" width="54" height="8" rx="3" fill="#94a3b8" />
+  <text x="300" y="312" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">8</text>
+  <rect x="330" y="304" width="110" height="8" rx="3" fill="#60a5fa" />
+  <rect x="448" y="304" width="44" height="8" rx="3" fill="#34d399" />
+  <text x="300" y="336" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">9</text>
+  <rect x="330" y="328" width="66" height="8" rx="3" fill="#c084fc" />
+  <rect x="404" y="328" width="82" height="8" rx="3" fill="#475569" />
+  <text x="300" y="360" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">10</text>
+  <rect x="330" y="352" width="40" height="8" rx="3" fill="#94a3b8" />
+  <rect x="378" y="352" width="132" height="8" rx="3" fill="#34d399" />
+  <text x="300" y="384" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">11</text>
+  <rect x="330" y="376" width="58" height="8" rx="3" fill="#475569" />
+  <rect x="396" y="376" width="48" height="8" rx="3" fill="#fbbf24" />
+  <text x="300" y="408" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">12</text>
+  <rect x="318" y="400" width="44" height="8" rx="3" fill="#c084fc" />
+  <rect x="370" y="400" width="74" height="8" rx="3" fill="#60a5fa" />
+  <text x="300" y="432" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">13</text>
+  <rect x="330" y="424" width="98" height="8" rx="3" fill="#475569" />
+  <rect x="436" y="424" width="30" height="8" rx="3" fill="#94a3b8" />
+  <text x="300" y="456" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">14</text>
+  <rect x="330" y="448" width="66" height="8" rx="3" fill="#38bdf8" />
+  <text x="300" y="480" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">15</text>
+  <rect x="330" y="472" width="52" height="8" rx="3" fill="#c084fc" />
+  <rect x="390" y="472" width="84" height="8" rx="3" fill="#475569" />
+  <text x="300" y="504" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">16</text>
+  <rect x="330" y="496" width="120" height="8" rx="3" fill="#60a5fa" />
+  <text x="300" y="528" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">17</text>
+  <rect x="318" y="520" width="40" height="8" rx="3" fill="#c084fc" />
+  <rect x="366" y="520" width="64" height="8" rx="3" fill="#94a3b8" />
+  <text x="300" y="552" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">18</text>
+  <text x="300" y="576" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">19</text>
+  <text x="300" y="600" fill="#3f4354" font-size="10" text-anchor="end" font-family="Inter, monospace">20</text>
+  <rect x="330" y="568" width="46" height="8" rx="3" fill="#475569" />
+  <rect x="384" y="568" width="28" height="8" rx="3" fill="#94a3b8" />
+  <rect x="318" y="591" width="22" height="8" rx="3" fill="#475569" />
+
+  <!-- AI 面板 -->
+  <rect x="836" y="48" width="364" height="627" fill="#0d0e15" />
+  <line x1="836" y1="48" x2="836" y2="675" stroke="#1d202b" />
+  <rect x="836" y="48" width="364" height="52" fill="#10121a" />
+  <circle cx="862" cy="74" r="11" fill="url(#d-brand)" />
+  <path d="M857 74 L862 69 L867 74 L862 79 Z" fill="#ffffff" fill-opacity="0.9" />
+  <text x="881" y="72" fill="#e8eaf2" font-size="12" font-weight="600" font-family="Inter, sans-serif">DevFlow AI</text>
+  <text x="881" y="87" fill="#5f6478" font-size="9" font-family="Inter, sans-serif">智能代码审查助手</text>
+  <circle cx="1170" cy="74" r="4" fill="#34d399" />
+
+  <text x="856" y="122" fill="#5d6175" font-size="9" letter-spacing="1.2" font-family="Inter, sans-serif">本次审查</text>
+  <rect x="856" y="134" width="324" height="54" rx="12" fill="#151a2a" stroke="#252c42" />
+  <text x="872" y="156" fill="#c3cae0" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">帮我检查 handleReview 中的</text>
+  <text x="872" y="172" fill="#c3cae0" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">异步状态处理是否有问题</text>
+
+  <rect x="856" y="204" width="324" height="126" rx="12" fill="#12141d" stroke="#232736" filter="url(#d-shadow)" />
+  <rect x="872" y="220" width="44" height="18" rx="9" fill="#1e2440" />
+  <text x="882" y="233" fill="#93c5fd" font-size="9" font-family="Inter, sans-serif">AI</text>
+  <text x="880" y="258" fill="#aeb4c8" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">发现 2 处可优化：</text>
+  <rect x="880" y="270" width="268" height="8" rx="3" fill="#2f3447" />
+  <rect x="880" y="286" width="220" height="8" rx="3" fill="#2f3447" />
+  <rect x="880" y="302" width="240" height="8" rx="3" fill="#2f3447" />
+
+  <rect x="856" y="348" width="324" height="76" rx="12" fill="#11131c" stroke="#202433" />
+  <text x="872" y="370" fill="#6d7288" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">建议修改</text>
+  <rect x="872" y="382" width="190" height="8" rx="3" fill="#7c3aed" fill-opacity="0.6" />
+  <rect x="872" y="398" width="248" height="8" rx="3" fill="#3b82f6" fill-opacity="0.55" />
+
+  <rect x="856" y="444" width="324" height="54" rx="12" fill="#12141d" stroke="#232736" />
+  <rect x="872" y="458" width="72" height="8" rx="3" fill="#34d399" fill-opacity="0.7" />
+  <rect x="872" y="474" width="190" height="8" rx="3" fill="#2f3447" />
+
+  <text x="856" y="540" fill="#5d6175" font-size="9" letter-spacing="1.2" font-family="Inter, sans-serif">快速操作</text>
+  <rect x="856" y="552" width="102" height="28" rx="14" fill="#171a26" stroke="#252a3b" />
+  <text x="874" y="570" fill="#8b90a6" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">解释这段代码</text>
+  <rect x="968" y="552" width="92" height="28" rx="14" fill="#171a26" stroke="#252a3b" />
+  <text x="986" y="570" fill="#8b90a6" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">生成测试</text>
+
+  <rect x="856" y="600" width="324" height="54" rx="14" fill="#151722" stroke="#2a2f42" />
+  <text x="874" y="631" fill="#5c6176" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">继续追问或粘贴代码…</text>
+  <circle cx="1152" cy="627" r="16" fill="url(#d-brand)" />
+  <path d="M1147 627 H1157 M1153 621 L1159 627 L1153 633" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

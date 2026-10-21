@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="杨可祎的插画头像">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe8ff" />
+      <stop offset="0.55" stop-color="#fbf6f0" />
+      <stop offset="1" stop-color="#f7f0e8" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="36%" r="58%">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.38" />
+      <stop offset="0.55" stop-color="#c4b5fd" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#faf8f5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e7f9" />
+      <stop offset="1" stop-color="#ddd0ee" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5d7c5" />
+      <stop offset="1" stop-color="#e5b8a4" />
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf8f5" stop-opacity="0" />
+      <stop offset="1" stop-color="#faf8f5" stop-opacity="0.3" />
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18" /></filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)" />
+  <circle cx="400" cy="320" r="330" fill="url(#glow)" />
+  <circle cx="400" cy="400" r="318" fill="none" stroke="#4c3b66" stroke-opacity="0.07" />
+  <circle cx="400" cy="400" r="268" fill="none" stroke="#4c3b66" stroke-opacity="0.05" />
+  <circle cx="126" cy="196" r="4" fill="#818cf8" fill-opacity="0.55" />
+  <circle cx="672" cy="270" r="3" fill="#a78bfa" fill-opacity="0.6" />
+  <circle cx="660" cy="136" r="6" fill="#ffffff" fill-opacity="0.45" filter="url(#blur)" />
+
+  <!-- 后层短发：发尾至下颌附近，微微内扣 -->
+  <path d="M400 202 C302 202 256 282 256 382 C256 448 252 500 270 538 C283 566 324 572 338 546 C328 506 326 468 328 432 L472 432 C474 468 472 506 462 546 C476 572 517 566 530 538 C548 500 544 448 544 382 C544 282 498 202 400 202 Z" fill="#2c1f2a" />
+
+  <!-- 肩部与浅紫针织衫 -->
+  <path d="M150 800 C158 676 246 614 330 588 L470 588 C554 614 642 676 650 800 Z" fill="url(#sweater)" />
+  <path d="M330 588 C350 612 450 612 470 588 C500 602 520 630 520 662 L280 662 C280 630 300 602 330 588 Z" fill="#f8f1fc" fill-opacity="0.55" />
+  <path d="M300 668 L300 800 M348 680 L348 800 M452 680 L452 800 M500 668 L500 800" stroke="#d5c5e6" stroke-opacity="0.5" stroke-width="3" />
+
+  <!-- 颈部 -->
+  <path d="M364 486 L436 486 L440 574 C428 600 372 600 360 574 Z" fill="#e8bfa9" />
+  <path d="M364 486 L436 486 L436 512 C414 528 386 528 364 512 Z" fill="#d9a992" fill-opacity="0.55" />
+
+  <!-- 耳朵与耳饰 -->
+  <ellipse cx="283" cy="404" rx="17" ry="28" fill="#e8bfa9" />
+  <ellipse cx="517" cy="404" rx="17" ry="28" fill="#dfb19a" />
+  <circle cx="283" cy="437" r="4.5" fill="#e7c98f" />
+  <circle cx="517" cy="437" r="4.5" fill="#e7c98f" />
+
+  <!-- 面部 -->
+  <path d="M400 250 C475 250 520 308 518 392 C516 472 470 542 400 552 C330 542 284 472 282 392 C280 308 325 250 400 250 Z" fill="url(#skin)" />
+  <path d="M400 250 C456 250 494 282 510 334 C482 306 442 294 400 294 C358 294 318 306 290 334 C306 282 344 250 400 250 Z" fill="#ffffff" fill-opacity="0.05" />
+  <ellipse cx="316" cy="452" rx="26" ry="14" fill="#e79f96" fill-opacity="0.18" />
+  <ellipse cx="484" cy="452" rx="26" ry="14" fill="#e79f96" fill-opacity="0.18" />
+
+  <!-- 前层头发：无刘海，发丝向后梳，露出额头 -->
+  <path d="M256 386 C250 288 306 216 400 212 C494 216 550 288 544 386 C548 310 518 266 460 260 C420 256 380 256 340 260 C282 266 252 310 256 386 Z" fill="#2c1f2a" />
+  <path d="M330 246 C370 216 430 216 470 246 C435 228 365 228 330 246 Z" fill="#3d2b38" />
+  <path d="M262 340 C260 420 264 480 276 524" stroke="#5b4150" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5" />
+  <path d="M538 340 C540 420 536 480 524 524" stroke="#5b4150" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4" />
+
+  <!-- 眉毛 -->
+  <path d="M332 354 Q352 343 370 352" stroke="#4a3036" stroke-width="5.5" fill="none" stroke-linecap="round" />
+  <path d="M430 352 Q448 343 468 354" stroke="#4a3036" stroke-width="5.5" fill="none" stroke-linecap="round" />
+
+  <!-- 圆框眼镜 -->
+  <rect x="316" y="367" width="68" height="48" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#9b8492" stroke-width="3.5" />
+  <rect x="416" y="367" width="68" height="48" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#9b8492" stroke-width="3.5" />
+  <path d="M384 385 H416" stroke="#9b8492" stroke-width="3.5" />
+  <path d="M316 383 L295 377" stroke="#9b8492" stroke-width="3" stroke-linecap="round" />
+  <path d="M484 383 L505 377" stroke="#9b8492" stroke-width="3" stroke-linecap="round" />
+
+  <!-- 眼睛 -->
+  <path d="M332 388 Q350 376 368 388 Q350 400 332 388 Z" fill="#fdf8f5" />
+  <path d="M432 388 Q450 376 468 388 Q450 400 432 388 Z" fill="#fdf8f5" />
+  <circle cx="350" cy="388" r="7" fill="#4a3036" />
+  <circle cx="450" cy="388" r="7" fill="#4a3036" />
+  <circle cx="352" cy="385" r="2.2" fill="#ffffff" />
+  <circle cx="452" cy="385" r="2.2" fill="#ffffff" />
+  <path d="M331 383 Q350 373 369 383" stroke="#3a262d" stroke-width="2.6" fill="none" stroke-linecap="round" />
+  <path d="M431 383 Q450 373 469 383" stroke="#3a262d" stroke-width="2.6" fill="none" stroke-linecap="round" />
+
+  <!-- 鼻子与嘴唇 -->
+  <path d="M400 407 Q393 440 403 446" stroke="#cf9f8a" stroke-width="3.5" fill="none" stroke-linecap="round" />
+  <path d="M374 480 Q400 470 426 480 Q400 502 374 480 Z" fill="#d98d88" />
+  <path d="M382 480 Q400 476 418 480" stroke="#bd7372" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+  <!-- 细项链 -->
+  <path d="M368 604 Q400 626 432 604" stroke="#cdb185" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <circle cx="400" cy="624" r="3.5" fill="#e2c493" />
+
+  <!-- 轮廓光 -->
+  <path d="M282 394 C284 466 314 520 356 544" stroke="url(#rim)" stroke-width="3.5" fill="none" opacity="0.7" />
+  <path d="M290 330 C300 266 338 232 386 222" stroke="url(#rim)" stroke-width="3" fill="none" opacity="0.45" />
+
+  <rect y="620" width="800" height="180" fill="url(#fade)" />
+</svg>

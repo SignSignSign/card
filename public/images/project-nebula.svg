@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Nebula Analytics 数据看板界面截图">
+  <defs>
+    <linearGradient id="n-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0c13" />
+      <stop offset="1" stop-color="#090a0f" />
+    </linearGradient>
+    <linearGradient id="n-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="n-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6" />
+      <stop offset="0.55" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="n-area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.32" />
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="n-glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0" />
+    </radialGradient>
+    <filter id="n-shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#05050a" flood-opacity="0.5" /></filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#n-bg)" />
+  <rect width="1200" height="675" fill="url(#n-glow)" />
+
+  <!-- 浏览器栏 -->
+  <rect width="1200" height="48" fill="#101118" />
+  <circle cx="24" cy="24" r="5" fill="#ff5f57" />
+  <circle cx="42" cy="24" r="5" fill="#febc2e" />
+  <circle cx="60" cy="24" r="5" fill="#28c840" />
+  <rect x="84" y="14" width="360" height="20" rx="10" fill="#1a1c26" />
+  <circle cx="98" cy="24" r="3" fill="#5b5f73" />
+  <text x="110" y="28" fill="#666b80" font-size="11" font-family="Inter, 'PingFang SC', -apple-system, sans-serif">nebula.app/dashboard</text>
+
+  <!-- 侧边栏 -->
+  <rect x="0" y="48" width="200" height="627" fill="#0d0e15" />
+  <line x1="200" y1="48" x2="200" y2="675" stroke="#1a1c26" />
+  <rect x="20" y="68" width="30" height="30" rx="9" fill="url(#n-brand)" />
+  <path d="M29 84 L38 76 L38 92 L29 84 Z" fill="#ffffff" fill-opacity="0.9" />
+  <text x="60" y="89" fill="#f4f5fa" font-size="12" font-weight="600" letter-spacing="2" font-family="Inter, sans-serif">NEBULA</text>
+
+  <text x="24" y="132" fill="#4b4f62" font-size="10" letter-spacing="1.5" font-family="Inter, sans-serif">工作台</text>
+  <rect x="12" y="144" width="176" height="38" rx="10" fill="#1a1c28" />
+  <rect x="26" y="158" width="10" height="10" rx="3" fill="#60a5fa" />
+  <text x="46" y="168" fill="#e4e6ef" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">概览</text>
+  <rect x="26" y="200" width="10" height="10" rx="3" fill="#3d4052" />
+  <text x="46" y="210" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">数据看板</text>
+  <rect x="26" y="242" width="10" height="10" rx="3" fill="#3d4052" />
+  <text x="46" y="252" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">自定义报表</text>
+  <rect x="26" y="284" width="10" height="10" rx="3" fill="#3d4052" />
+  <text x="46" y="294" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">用户洞察</text>
+  <rect x="26" y="326" width="10" height="10" rx="3" fill="#3d4052" />
+  <text x="46" y="336" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">通知中心</text>
+
+  <text x="24" y="388" fill="#4b4f62" font-size="10" letter-spacing="1.5" font-family="Inter, sans-serif">项目</text>
+  <circle cx="31" cy="413" r="4" fill="#8b5cf6" />
+  <text x="46" y="417" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">新产品发布</text>
+  <circle cx="31" cy="455" r="4" fill="#38bdf8" />
+  <text x="46" y="459" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">增长实验</text>
+  <circle cx="31" cy="497" r="4" fill="#64748b" />
+  <text x="46" y="501" fill="#7c8094" font-size="12" font-family="Inter, 'PingFang SC', sans-serif">归档项目</text>
+
+  <rect x="12" y="580" width="176" height="64" rx="12" fill="#12141c" stroke="#1e2130" />
+  <circle cx="38" cy="612" r="15" fill="#312e81" />
+  <text x="38" y="617" fill="#c7d2fe" font-size="10" font-weight="600" text-anchor="middle" font-family="Inter, sans-serif">YK</text>
+  <text x="62" y="608" fill="#d9dbe6" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">杨可祎</text>
+  <text x="62" y="624" fill="#5f6376" font-size="10" font-family="Inter, sans-serif">Administrator</text>
+
+  <!-- 顶部标题 -->
+  <text x="236" y="96" fill="#f5f6fb" font-size="21" font-weight="600" font-family="Inter, 'PingFang SC', sans-serif">运营概览</text>
+  <text x="236" y="119" fill="#6b6f82" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">实时监测核心业务指标</text>
+  <rect x="986" y="72" width="180" height="34" rx="17" fill="#12141d" stroke="#222532" />
+  <circle cx="1006" cy="89" r="4" fill="#60a5fa" />
+  <text x="1018" y="93" fill="#9ca2b6" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">最近 7 天</text>
+  <path d="M1140 86 L1146 92 L1152 86" stroke="#5f6478" stroke-width="1.6" fill="none" stroke-linecap="round" />
+
+  <!-- 指标卡片 -->
+  <g filter="url(#n-shadow)">
+    <rect x="236" y="136" width="300" height="104" rx="14" fill="#101119" stroke="#1d202b" />
+    <rect x="552" y="136" width="300" height="104" rx="14" fill="#101119" stroke="#1d202b" />
+    <rect x="868" y="136" width="300" height="104" rx="14" fill="#101119" stroke="#1d202b" />
+  </g>
+  <text x="256" y="164" fill="#6d7185" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">总营收</text>
+  <text x="256" y="198" fill="#f7f8fc" font-size="26" font-weight="600" font-family="Inter, sans-serif">¥128,420</text>
+  <rect x="256" y="210" width="64" height="20" rx="10" fill="#0f2a22" />
+  <text x="266" y="224" fill="#34d399" font-size="10" font-family="Inter, sans-serif">+12.5%</text>
+  <text x="572" y="164" fill="#6d7185" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">活跃用户</text>
+  <text x="572" y="198" fill="#f7f8fc" font-size="26" font-weight="600" font-family="Inter, sans-serif">12,846</text>
+  <rect x="572" y="210" width="58" height="20" rx="10" fill="#0f2a22" />
+  <text x="582" y="224" fill="#34d399" font-size="10" font-family="Inter, sans-serif">+8.2%</text>
+  <text x="888" y="164" fill="#6d7185" font-size="11" font-family="Inter, 'PingFang SC', sans-serif">转化率</text>
+  <text x="888" y="198" fill="#f7f8fc" font-size="26" font-weight="600" font-family="Inter, sans-serif">4.82%</text>
+  <rect x="888" y="210" width="56" height="20" rx="10" fill="#2a1420" />
+  <text x="898" y="224" fill="#fb7185" font-size="10" font-family="Inter, sans-serif">-0.6%</text>
+
+  <!-- 折线图卡片 -->
+  <rect x="236" y="260" width="604" height="384" rx="16" fill="#101119" stroke="#1d202b" />
+  <text x="262" y="294" fill="#e9ebf3" font-size="13" font-weight="500" font-family="Inter, 'PingFang SC', sans-serif">营收趋势</text>
+  <text x="262" y="312" fill="#5f6376" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">近 30 天收入变化</text>
+  <circle cx="700" cy="292" r="4" fill="#60a5fa" />
+  <text x="710" y="296" fill="#7d8296" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">本期</text>
+  <circle cx="760" cy="292" r="4" fill="#64748b" />
+  <text x="770" y="296" fill="#7d8296" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">上期</text>
+
+  <line x1="268" y1="360" x2="808" y2="360" stroke="#1c1f2b" stroke-dasharray="4 6" />
+  <line x1="268" y1="410" x2="808" y2="410" stroke="#1c1f2b" stroke-dasharray="4 6" />
+  <line x1="268" y1="460" x2="808" y2="460" stroke="#1c1f2b" stroke-dasharray="4 6" />
+  <line x1="268" y1="510" x2="808" y2="510" stroke="#1c1f2b" stroke-dasharray="4 6" />
+  <line x1="268" y1="560" x2="808" y2="560" stroke="#1c1f2b" stroke-dasharray="4 6" />
+
+  <path d="M268 545 L312 505 L356 518 L400 462 L444 478 L488 424 L532 444 L576 382 L620 398 L664 352 L708 372 L752 322 L796 338 L808 326 L808 580 L268 580 Z" fill="url(#n-area)" />
+  <path d="M268 545 L312 505 L356 518 L400 462 L444 478 L488 424 L532 444 L576 382 L620 398 L664 352 L708 372 L752 322 L796 338 L808 326" stroke="url(#n-line)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M268 566 L312 540 L356 548 L400 512 L444 522 L488 490 L532 502 L576 462 L620 474 L664 438 L708 452 L752 412 L796 424 L808 416" stroke="#3b3f52" stroke-width="2" fill="none" stroke-dasharray="6 6" stroke-linecap="round" />
+
+  <line x1="576" y1="382" x2="576" y2="580" stroke="#4f5570" stroke-dasharray="3 5" />
+  <circle cx="576" cy="382" r="6" fill="#0a0b10" stroke="#818cf8" stroke-width="3" />
+  <rect x="522" y="320" width="128" height="46" rx="10" fill="#171a27" stroke="#2b2f42" />
+  <text x="536" y="338" fill="#6f7488" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">6 月 12 日</text>
+  <text x="536" y="355" fill="#e7e9f2" font-size="12" font-weight="600" font-family="Inter, sans-serif">¥24,180</text>
+
+  <text x="268" y="606" fill="#4f5366" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">6 月 01 日</text>
+  <text x="420" y="606" fill="#4f5366" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">6 月 08 日</text>
+  <text x="572" y="606" fill="#4f5366" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">6 月 15 日</text>
+  <text x="724" y="606" fill="#4f5366" font-size="9" font-family="Inter, 'PingFang SC', sans-serif">6 月 22 日</text>
+
+  <!-- 渠道构成卡片 -->
+  <rect x="868" y="260" width="300" height="384" rx="16" fill="#101119" stroke="#1d202b" />
+  <text x="892" y="294" fill="#e9ebf3" font-size="13" font-weight="500" font-family="Inter, 'PingFang SC', sans-serif">渠道构成</text>
+  <text x="892" y="312" fill="#5f6376" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">访问来源分布</text>
+
+  <circle cx="1018" cy="424" r="78" fill="none" stroke="#1e2130" stroke-width="22" />
+  <circle cx="1018" cy="424" r="78" fill="none" stroke="#3b82f6" stroke-width="22" stroke-dasharray="245 490" transform="rotate(-90 1018 424)" stroke-linecap="round" />
+  <circle cx="1018" cy="424" r="78" fill="none" stroke="#8b5cf6" stroke-width="22" stroke-dasharray="147 490" stroke-dashoffset="-245" transform="rotate(-90 1018 424)" />
+  <circle cx="1018" cy="424" r="78" fill="none" stroke="#38bdf8" stroke-width="22" stroke-dasharray="98 490" stroke-dashoffset="-392" transform="rotate(-90 1018 424)" />
+  <text x="1018" y="422" fill="#f4f5fa" font-size="22" font-weight="600" text-anchor="middle" font-family="Inter, sans-serif">12.8k</text>
+  <text x="1018" y="442" fill="#626679" font-size="10" text-anchor="middle" font-family="Inter, 'PingFang SC', sans-serif">总访问</text>
+
+  <circle cx="900" cy="548" r="4" fill="#3b82f6" />
+  <text x="912" y="552" fill="#969bb0" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">自然搜索</text>
+  <text x="1128" y="552" fill="#d3d6e1" font-size="10" text-anchor="end" font-family="Inter, sans-serif">50%</text>
+  <circle cx="900" cy="578" r="4" fill="#8b5cf6" />
+  <text x="912" y="582" fill="#969bb0" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">社交推荐</text>
+  <text x="1128" y="582" fill="#d3d6e1" font-size="10" text-anchor="end" font-family="Inter, sans-serif">30%</text>
+  <circle cx="900" cy="608" r="4" fill="#38bdf8" />
+  <text x="912" y="612" fill="#969bb0" font-size="10" font-family="Inter, 'PingFang SC', sans-serif">直接访问</text>
+  <text x="1128" y="612" fill="#d3d6e1" font-size="10" text-anchor="end" font-family="Inter, sans-serif">20%</text>
+</svg>

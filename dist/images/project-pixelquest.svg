@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="PixelQuest 像素冒险游戏截图">
+  <defs>
+    <linearGradient id="p-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140f2e" />
+      <stop offset="0.55" stop-color="#2a1550" />
+      <stop offset="1" stop-color="#41215f" />
+    </linearGradient>
+    <linearGradient id="p-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241a3d" />
+      <stop offset="1" stop-color="#120d22" />
+    </linearGradient>
+    <radialGradient id="p-moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5f3ff" />
+      <stop offset="0.7" stop-color="#ddd6fe" />
+      <stop offset="1" stop-color="#a78bfa" />
+    </radialGradient>
+    <radialGradient id="p-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="p-scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="1" fill="#000000" fill-opacity="0.22" />
+    </pattern>
+    <filter id="p-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#p-sky)" />
+  <circle cx="960" cy="150" r="150" fill="url(#p-glow)" />
+  <circle cx="960" cy="150" r="72" fill="url(#p-moon)" />
+  <circle cx="938" cy="136" r="10" fill="#c4b5fd" fill-opacity="0.6" />
+  <circle cx="982" cy="176" r="6" fill="#c4b5fd" fill-opacity="0.5" />
+
+  <!-- 像素星星 -->
+  <g fill="#f5f3ff" shape-rendering="crispEdges">
+    <rect x="120" y="90" width="4" height="4" opacity="0.9" /><rect x="112" y="98" width="20" height="4" opacity="0.55" /><rect x="120" y="102" width="4" height="4" opacity="0.9" />
+    <rect x="300" y="64" width="3" height="3" opacity="0.7" /><rect x="308" y="72" width="3" height="3" opacity="0.5" />
+    <rect x="520" y="110" width="4" height="4" opacity="0.85" /><rect x="512" y="118" width="20" height="4" opacity="0.45" /><rect x="520" y="122" width="4" height="4" opacity="0.85" />
+    <rect x="700" y="66" width="3" height="3" opacity="0.6" /><rect x="752" y="120" width="3" height="3" opacity="0.8" />
+    <rect x="1080" y="82" width="4" height="4" opacity="0.8" /><rect x="1072" y="90" width="20" height="4" opacity="0.4" /><rect x="1080" y="94" width="4" height="4" opacity="0.8" />
+    <rect x="180" y="180" width="3" height="3" opacity="0.5" /><rect x="420" y="168" width="3" height="3" opacity="0.65" />
+    <rect x="640" y="200" width="3" height="3" opacity="0.55" /><rect x="880" y="230" width="3" height="3" opacity="0.6" />
+    <rect x="1120" y="220" width="3" height="3" opacity="0.4" /><rect x="60" y="260" width="3" height="3" opacity="0.45" />
+  </g>
+
+  <!-- 远山 -->
+  <path d="M0 470 L90 400 L150 400 L220 452 L300 372 L370 372 L440 452 L510 452 L590 368 L700 368 L780 462 L850 462 L940 386 L1050 386 L1140 458 L1200 458 L1200 675 L0 675 Z" fill="#241838" shape-rendering="crispEdges" />
+  <path d="M0 530 L120 462 L210 462 L290 510 L380 428 L470 428 L560 520 L680 520 L790 436 L900 436 L1000 520 L1100 520 L1200 470 L1200 675 L0 675 Z" fill="#1b1230" shape-rendering="crispEdges" />
+
+  <!-- 地面 -->
+  <rect y="590" width="1200" height="85" fill="url(#p-ground)" />
+  <rect y="590" width="1200" height="4" fill="#7c3aed" fill-opacity="0.55" />
+  <g fill="#3a2a58" shape-rendering="crispEdges">
+    <rect x="60" y="620" width="18" height="6" /><rect x="180" y="644" width="24" height="6" /><rect x="320" y="612" width="14" height="6" />
+    <rect x="470" y="636" width="20" height="6" /><rect x="640" y="618" width="16" height="6" /><rect x="820" y="646" width="24" height="6" />
+    <rect x="980" y="616" width="18" height="6" /><rect x="1120" y="640" width="20" height="6" />
+  </g>
+
+  <!-- 平台 -->
+  <g shape-rendering="crispEdges">
+    <rect x="170" y="470" width="200" height="20" fill="#3b2a5c" />
+    <rect x="170" y="470" width="200" height="4" fill="#a78bfa" fill-opacity="0.7" />
+    <rect x="190" y="490" width="16" height="10" fill="#2a1c42" /><rect x="334" y="490" width="16" height="10" fill="#2a1c42" />
+
+    <rect x="700" y="430" width="230" height="20" fill="#3b2a5c" />
+    <rect x="700" y="430" width="230" height="4" fill="#a78bfa" fill-opacity="0.7" />
+    <rect x="720" y="450" width="16" height="10" fill="#2a1c42" /><rect x="894" y="450" width="16" height="10" fill="#2a1c42" />
+
+    <rect x="1010" y="510" width="150" height="18" fill="#3b2a5c" />
+    <rect x="1010" y="510" width="150" height="4" fill="#a78bfa" fill-opacity="0.7" />
+  </g>
+
+  <!-- 金币 -->
+  <g shape-rendering="crispEdges">
+    <rect x="306" y="356" width="16" height="4" fill="#fbbf24" /><rect x="298" y="362" width="32" height="12" fill="#fbbf24" /><rect x="306" y="376" width="16" height="4" fill="#f59e0b" />
+    <rect x="646" y="286" width="16" height="4" fill="#fbbf24" /><rect x="638" y="292" width="32" height="12" fill="#fbbf24" /><rect x="646" y="306" width="16" height="4" fill="#f59e0b" />
+    <rect x="1092" y="330" width="16" height="4" fill="#fbbf24" /><rect x="1084" y="336" width="32" height="12" fill="#fbbf24" /><rect x="1092" y="350" width="16" height="4" fill="#f59e0b" />
+  </g>
+
+  <!-- 敌人史莱姆 -->
+  <g shape-rendering="crispEdges">
+    <rect x="796" y="398" width="60" height="8" fill="#c084fc" />
+    <rect x="788" y="406" width="76" height="20" fill="#8b5cf6" />
+    <rect x="796" y="426" width="60" height="4" fill="#6d28d9" />
+    <rect x="804" y="412" width="8" height="8" fill="#1e1b2e" /><rect x="840" y="412" width="8" height="8" fill="#1e1b2e" />
+    <rect x="820" y="422" width="12" height="4" fill="#1e1b2e" />
+  </g>
+
+  <!-- 角色 -->
+  <g shape-rendering="crispEdges">
+    <!-- 腿 -->
+    <rect x="506" y="552" width="14" height="30" fill="#1e3a8a" />
+    <rect x="534" y="552" width="14" height="30" fill="#1e3a8a" />
+    <rect x="500" y="580" width="22" height="10" fill="#172554" />
+    <rect x="532" y="580" width="22" height="10" fill="#172554" />
+    <!-- 身体 -->
+    <rect x="494" y="502" width="66" height="48" fill="#3b82f6" />
+    <rect x="494" y="502" width="66" height="8" fill="#60a5fa" />
+    <rect x="546" y="514" width="14" height="26" fill="#2563eb" />
+    <!-- 围巾 -->
+    <rect x="492" y="492" width="70" height="10" fill="#f472b6" />
+    <rect x="548" y="502" width="14" height="24" fill="#db2777" />
+    <!-- 手臂 -->
+    <rect x="482" y="514" width="12" height="24" fill="#60a5fa" />
+    <rect x="560" y="514" width="12" height="24" fill="#60a5fa" />
+    <!-- 头 -->
+    <rect x="504" y="458" width="44" height="36" fill="#f0cdb7" />
+    <rect x="496" y="448" width="60" height="16" fill="#241d33" />
+    <rect x="504" y="448" width="12" height="24" fill="#241d33" />
+    <!-- 面部 -->
+    <rect x="516" y="472" width="7" height="7" fill="#241d33" />
+    <rect x="534" y="472" width="7" height="7" fill="#241d33" />
+    <rect x="524" y="484" width="10" height="4" fill="#c08f77" />
+    <!-- 剑 -->
+    <rect x="566" y="530" width="8" height="34" fill="#e2e8f0" />
+    <rect x="558" y="556" width="24" height="6" fill="#94a3b8" />
+    <rect x="566" y="562" width="8" height="10" fill="#7c3aed" />
+  </g>
+
+  <!-- HUD -->
+  <g shape-rendering="crispEdges">
+    <rect x="36" y="28" width="8" height="8" fill="#fb7185" /><rect x="52" y="28" width="8" height="8" fill="#fb7185" />
+    <rect x="28" y="36" width="40" height="8" fill="#fb7185" /><rect x="36" y="44" width="24" height="8" fill="#fb7185" /><rect x="44" y="52" width="8" height="8" fill="#fb7185" />
+    <rect x="76" y="28" width="8" height="8" fill="#fb7185" /><rect x="92" y="28" width="8" height="8" fill="#fb7185" />
+    <rect x="68" y="36" width="40" height="8" fill="#fb7185" /><rect x="76" y="44" width="24" height="8" fill="#fb7185" /><rect x="84" y="52" width="8" height="8" fill="#fb7185" />
+    <rect x="108" y="28" width="8" height="8" fill="#7f1d3a" /><rect x="124" y="28" width="8" height="8" fill="#7f1d3a" />
+    <rect x="100" y="36" width="40" height="8" fill="#7f1d3a" /><rect x="108" y="44" width="24" height="8" fill="#7f1d3a" /><rect x="116" y="52" width="8" height="8" fill="#7f1d3a" />
+  </g>
+  <text x="1164" y="46" fill="#f5f3ff" font-size="14" letter-spacing="3" text-anchor="end" font-family="'Courier New', monospace">SCORE 02840</text>
+  <text x="600" y="42" fill="#f5f3ff" fill-opacity="0.55" font-size="13" letter-spacing="8" text-anchor="middle" font-family="'Courier New', monospace">PIXELQUEST</text>
+  <text x="36" y="646" fill="#c4b5fd" fill-opacity="0.7" font-size="11" letter-spacing="2" font-family="'Courier New', monospace">WORLD 1-3</text>
+  <text x="1164" y="646" fill="#a78bfa" fill-opacity="0.75" font-size="11" letter-spacing="2" text-anchor="end" font-family="'Courier New', monospace">← → 移动   SPACE 跳跃</text>
+
+  <rect width="1200" height="675" fill="url(#p-scan)" opacity="0.5" />
+</svg>
